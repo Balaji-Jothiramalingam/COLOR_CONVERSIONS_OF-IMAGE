@@ -272,11 +272,11 @@ cv2.imshow('FLIPPED IMAGE', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows(
 ```
+![365693576-dfa6a444-c37d-402d-91f5-5f4684addf22](https://github.com/user-attachments/assets/f09457f0-9bb7-44f3-8673-62a743b6e933)
+
+![365696504-994b3925-39c2-4a6f-8ad0-b239a9dd0e05](https://github.com/user-attachments/assets/8675f65a-c32a-4bc6-bddc-7957aec49322)
 
 
-![Uploading 365693576-dfa6a444-c3
-![365696504-994b3925-39c2-4a6f-8ad0-b239a9dd0e05](https://github.com/user-attachments/assets/0ad9d992-06dd-41ab-b476-f05ea0bfab68)
-7d-402d-91f5-5f4684addf22.png…]()
 
 ## (2) Flip the original image vertically and display it.
 ```
