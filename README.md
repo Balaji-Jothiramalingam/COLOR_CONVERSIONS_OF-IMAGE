@@ -187,6 +187,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ![365693576-dfa6a444-c37d-402d-91f5-5f4684addf22](https://github.com/user-attachments/assets/45d714f3-8399-475e-97bd-4f407994ce0b)
+
 ![365694179-cd1fe6a9-e3f7-4fe9-8784-6de96635a498](https://github.com/user-attachments/assets/00b08b98-a022-40e0-8ed5-06af2fcb485f)
 
 ## (4) Convert the HSV image back to RGB and display it.
