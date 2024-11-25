@@ -51,15 +51,15 @@ Crop a region of interest (ROI) from the image (e.g., a 100x100 pixel area start
 ## Step7:
 1) Flip the original image horizontally and display it.
 2) Flip the original image vertically and display it.
-Step8:
-## Save the final modified image to your local directory.
+## Step8:
+Save the final modified image to your local directory.
 
 ## Developed By:BALAJI J
-## Register Number: 212221243001
+##  Register Number: 212221243001
 ## Program & Output:
 ## i)Read and Display an Image
 
-## Load an image from your local directory and display it.
+1) Load an image from your local directory and display it.
 ```
 import cv2 
 image=cv2.imread('forest.png',1)
