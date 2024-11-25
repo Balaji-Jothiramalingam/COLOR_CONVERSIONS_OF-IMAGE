@@ -35,13 +35,13 @@ Draw a rectangle around a specific region of interest in the image.
 Add the text "OpenCV Drawing" at the top-left corner of the image.
 
 ## Step3:
-Convert the image from RGB to HSV and display it.
-Convert the image from RGB to GRAY and display it.
-Convert the image from RGB to YCrCb and display it.
-Convert the HSV image back to RGB and display it.
+1) Convert the image from RGB to HSV and display it.
+2) Convert the image from RGB to GRAY and display it.
+3) Convert the image from RGB to YCrCb and display it.
+4) Convert the HSV image back to RGB and display it.
 ## Step4:
-Access and print the value of the pixel at coordinates (100, 100).
-Modify the color of the pixel at (200, 200) to white.
+1) Access and print the value of the pixel at coordinates (100, 100).
+2) Modify the color of the pixel at (200, 200) to white.
 ## Step5:
 Resize the original image to half its size and display it.
 
@@ -49,10 +49,10 @@ Resize the original image to half its size and display it.
 Crop a region of interest (ROI) from the image (e.g., a 100x100 pixel area starting at (50, 50)) and display it.
 
 ## Step7:
-Flip the original image horizontally and display it.
-Flip the original image vertically and display it.
+1) Flip the original image horizontally and display it.
+2) Flip the original image vertically and display it.
 Step8:
-Save the final modified image to your local directory.
+## Save the final modified image to your local directory.
 
 ## Developed By:BALAJI J
 ## Register Number: 212221243001
@@ -66,11 +66,11 @@ image=cv2.imread('forest.png',1)
 image =cv2.resize(image, (400, 300))
 cv2.imshow('WINDOW',image)
 cv2.waitKey(0)
-cv2.destroyAllW
+cv2.destroyAllWindows()
 
 ```
 ![365697377-8e2c2ec1-6f92-4d56-9e03-f77c7babfd9f](https://github.com/user-attachments/assets/9fb8684f-bc49-4538-8421-54e12c72fb60)
-indows()
+
 
 ## ii)Draw Shapes and Add Text
 ## (1) Draw a line from the top-left to the bottom-right of the image.
@@ -140,7 +140,7 @@ cv2.destroyAllWindows()
 ![365693335-f295f325-3e09-4ddc-8fec-614217b2338c](https://github.com/user-attachments/assets/22b45c38-4793-4800-b06a-910db3066d42)
 
 ## iii)Image Color Conversion
-## (1) Convert the image from RGB to HSV and display it
+ (1) Convert the image from RGB to HSV and display it
 ```
 import cv2
 image = cv2.imread('forest.png',1)
